@@ -1,6 +1,6 @@
 import React from 'react'
 import './recipe.css'
-import test from '../../../assets/carousel-image.webp'
+import test from '../../../assets/carousel-image2.png'
 import Banner from '../../Landing_Page/Banner/Banner'
 import Recipe_Card from './Recipe_Card/Recipe_Card'
 import {recipeListSpices} from '../../../utils/recipes'

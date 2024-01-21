@@ -43,7 +43,7 @@ useEffect(()=>{
        
       {/* <Banner image={test1}/> */}
      
-     
+      <h3 className='product-display-heading'>Our Products</h3>
 
 <div className="apply-filters">
   <span><h3>Apply Filters</h3></span>
@@ -61,43 +61,9 @@ useEffect(()=>{
     </form>
   </div>
 </div>
-      {/* 
-<form action="/products" method='GET'>
-<div className="form-input">
-<input type="radio" id="spices1" name="spices_choice" value="spices1"/>
-<span><label for="spices1">Spices 1 djekbnjk ebfjkewb fjkewbfejkw</label></span>
-</div>
-
-<div className="form-input">
-<input type="radio" id="spices2" name="spices_choice" value="spices2"/>
-<label for="spices2">Spices 2</label>
-</div>
-
-<div className="form-input">
-<input type="radio" id="spices3" name="spices_choice" value="spices3"/>
-<label for="spices3">Spices 3</label>
-</div>
-
-<div className="form-input">
-<input type="radio" id="spices4" name="spices_choice" value="spices4"/>
-<label for="spices4">Spices 4</label>
-</div>
-
-<div className="form-input">
-<input type="radio" id="spices5" name="spices_choice" value="spices5"/>
-<label for="spices5">Spices 5</label>
-</div>
-
-<div className="button-holder">
-    <Button title="Apply" color="#324C65"></Button>
-    <Button title="Reset" color="#324C65"></Button>
-</div>
-</form>
-     */}
-
 
       <div className="right">
-       <h3 className='product-display-heading'>Our Products</h3>
+       {/* <h3 className='product-display-heading'>Our Products</h3> */}
       <div className="product-container">
       <Product_List products={filteredItems}/>
       </div>

@@ -30,9 +30,9 @@ const Landing = () => {
       <Different_Better/>
      
       {/* <Banner image={test1} /> */}
-      {/* <Product_List products={boxSpices} heading="Product List 1"/> */}
+      <Product_List products={boxSpices.slice(0,6)} heading="Product List 1"/>
       {/* <Banner image={test1} /> */}
-      {/* <Product_List products={productsListSpices} heading="Product List 2" /> */}
+      <Product_List products={productsListSpices.slice(0,6)} heading="Product List 2" />
       {/* <Banner image={test1} /> */}
       <Safety/>
       <Why_Best/>

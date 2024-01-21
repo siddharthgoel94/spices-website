@@ -1,5 +1,10 @@
 import reactLogo from '../assets/react.svg'
 import testImage from '../assets/cart.svg'
+import safe1 from '../assets/safety/1.svg'
+import safe2 from '../assets/safety/2.svg'
+import safe3 from '../assets/safety/3.svg'
+import safe4 from '../assets/safety/4.svg'
+import safe5 from '../assets/safety/5.svg'
 export const accreditionImages=[
     {
     id:1,
@@ -41,32 +46,28 @@ export const accreditionImages=[
   export const safetyImages=[
     {
         id:1,
-        url:testImage,
-        text:"Image1"
+        url:safe1,
+        text:"Sterilized"
       },
       {
         id:2,
-        url:testImage,
-        text:"Image2"
+        url:safe2,
+        text:"Non-Toxic"
       },
       {
         id:3,
-        url:testImage,
-        text:"Image3"
+        url:safe3,
+        text:"No artificial Chemicals"
       },
       {
         id:4,
-        url:testImage,
-        text:"Image4"
+        url:safe4,
+        text:"Natural"
       },
       {
         id:5,
-        url:testImage,
-        text:"Image5"
-      },
-      {
-        id:6,
-        url:testImage,
-        text:"Image6"
+        url:safe5,
+        text:"Made In India"
       }
+     
   ]

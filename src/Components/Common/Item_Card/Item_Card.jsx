@@ -21,7 +21,8 @@ const Item_Card = (props) => {
         <h2>{props.product.name}</h2>
         </div>
         <div className="card-sub-text">
-         <span className="price"> ₹{props.product.price}.00</span>
+          
+         {props.product.price?<span className="price"> ₹{props.product.price}.00</span>:''}
          <Dropdown options={props.product.quantity_options?props.product.quantity_options:options} placeholder="Quantity" />
          {/* <span className="quantity">Quantity: {`${props.product.quantity}`}</span> */}
           
