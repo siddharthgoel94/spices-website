@@ -1,0 +1,13 @@
+.button-class>button{
+    padding:0.8rem 1rem;
+    border-radius: 0.4rem;
+    border:none;
+    color:white;
+    cursor: pointer;
+    font-size:1rem;
+    
+    
+}
+.button-class:hover{
+    opacity: 0.8;
+}

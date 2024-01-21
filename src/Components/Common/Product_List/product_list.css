@@ -1,0 +1,14 @@
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:1rem 5rem;
+}
+.product-list-heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color:var(--primary-color);
+}
+

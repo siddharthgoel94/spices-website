@@ -1,0 +1,17 @@
+.testimonial-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+    min-width:20vw;
+}
+.testimonial-slide>img{
+    height:80%;
+    width:80%;
+}
+.testimonials>h2{
+    text-align: center;
+    font-size:3rem;
+    margin:1rem;
+    color:var(--dark-color);
+}

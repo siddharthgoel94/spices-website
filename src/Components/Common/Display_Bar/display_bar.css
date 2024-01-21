@@ -1,0 +1,26 @@
+.display-bar-image-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+    
+    
+}
+.display-bar-image{
+    min-width:4rem;
+    /* height:12%; */
+    margin:2rem;
+
+}
+.display-bar-image>img{
+    height:100%;
+    width:100%;
+
+}
+.display-bar-heading{
+    font-size:2rem;
+    text-align: center;
+    margin-top: 1rem;
+    color:var(--dark-color);
+}

@@ -1,0 +1,35 @@
+.item-card{
+    height:25rem;
+    min-width:15rem;
+    border:0.01rem solid grey;
+    margin:1rem 2rem;
+    /* background-color: white; */
+}
+.card-image{
+    height:70%;
+    width:100%;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 0.5px solid grey;
+}
+.card-heading>h2{
+    font-size:1.5rem;
+   margin-top: 1rem;
+   text-align: center;
+
+}
+.card-sub-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 1rem; */
+}

@@ -1,0 +1,45 @@
+.product-range>h2{
+    font-size: 3rem;
+    text-align: center;
+    margin:1rem 0rem;
+    color:var(--dark-color);
+}
+.product-range>.image-holder{
+width:90vw;
+margin: auto;
+/* border: 1px solid gray; */
+display: flex;
+flex-wrap: wrap;
+}
+.product-range>.image-holder>.image-holder-image{
+    min-width:48%;
+    max-width:50%;
+    height:20rem;
+    /* border: 1px solid black; */
+    margin:0.2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay-filter{
+    position: relative;
+    background-color: black;
+    height:100%;
+    width:100%; 
+    opacity:0.7;
+    z-index: 5;
+    color:white;
+    font-size:1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-text{
+   position:relative;
+   /* top:-50%; */
+   height:100%;
+   width: 100%;
+   z-index:10;
+   color: white;
+}
+
